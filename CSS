@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+header {
+    background:linear-gradient(to top,#ffffff,#5ac1f1   );
+    color: #fcfcfc;
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+footer {
+    background:linear-gradient(to bottom,#fffefd,#5ac1f1    );
+    color: rgb(11, 17, 17);
+    padding: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+.conteudo {
+    font-size: 1.6rem;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(73, 63, 63);
+    color: #5f0168;
+    border-radius: 10PX;
+}
+h2 {
+    font-size: 1.9rem;
+}
+h3 {
+    font-size: 1.7rem;
+}
+h4 {
+    font-size: 1.4rem;
+}
+h5{
+    font-size: 3rem;
+    color: rgb(124, 4, 118);
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+figure {
+    text-align: center;
+}
+.imagem-site {
+    border-radius: 10px 10px 10px 10px;
+    width: 50%;
+    height: 50%;
+    border: solid;
+}
+@media(min-width: 280px) and (max-width: 450px) {
+    .imagem-site {
+        border-radius: 10px 10px 10px 10px;
+        width: 60%;
+        height: 60%;
+    }
+}
+#compras {
+    background-color: rgba(250, 250, 250, 0.5);
+    width: 200px;
+    height:150px;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    margin-top: 20rem;
+    z-index: 1;
+    border-radius: 20px;
+    padding-top: 30px;
+    border: solid black;
+}
+@media(min-width:200px)and(max-width:200px){
+#compras {
+    background-color: rgba(210, 34, 245, 0.5);
+    width: 180px;
+    height: 100px;
+    right: 0;
+    position: fixed;
+    text-align: center;
+    margin-top: 20rem;
+    z-index: 1;
+    border-radius: 20px;
+    padding-top: 5px;
+    border: solid black;
+}
+}
+#grid-conteudo {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+.grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    max-width: 750px;
+    grid-gap: 1px;
+    margin: 0 auto;
+}
+#grid-conteudo .grid div {
+    background-color: #fffffd;
+    text-align: center;
+    padding: 1rem;
+}
+#formulario {
+    background-color: #dcdcdc;
+}
+input{
+    border: solid;
+    padding: 2px;
+    border-radius: 10px;
+    font-style: 1.8rem;
+}
+#mensagem{
+    border: solid;
+    padding: 2px;
+    border-radius: 10px;
+    font-style: 1.8rem;
+}
+#btn-limpar{
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+#btn-enviar{
+    background-color: #f80101;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+nav{
+    text-align: right;
+    font-size: 1.6rem;
+    word-spacing: 20px;
+    margin-right: 5%;
+}
+a{
+    text-decoration: none;
+    color: #f3f3f5;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #000000;
+    background-color: rgb(112, 3, 116);
+    border-radius: 20px;
+    padding: 5px;
+}
+a:hover{
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #f0ebeb;
+    background-color: #d98ff0;
+    padding: 4px;
+    border-radius: 10px;
+    border: solid rgb(79, 6, 107);
+}
