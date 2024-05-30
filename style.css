@@ -77,11 +77,19 @@ figure {
     border: solid;
 }
 
-@media (min-width: 280px) and (max-width: 450px) {
-    .imagem-site {
-        border-radius: 10px;
-        width: 60%;
-        height: 60%;
+@media (max-width: 300px) {
+    #compras {
+        background-color: rgba(210, 34, 245, 0.5);
+        width: 180px;
+        height: 100px;
+        right: 0;
+        position: fixed;
+        text-align: center;
+        margin-top: 20rem;
+        z-index: 1;
+        border-radius: 20px;
+        padding-top: 5px;
+        border: solid black;
     }
 }
 
